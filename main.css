@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(134, 134, 134);
+    padding: 100px;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+form input{
+    background-size: auto;
+    padding: 10px;
+    margin-right: 16px;
+    border: none;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+    color: black;
+}
+
+form button{
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ul li{
+    max-width: 100%;
+    padding-top: 10px;
+    justify-items: auto;
+    list-style: none;
+    position: relative;
+    max-height: 280px;
+    overflow-y: hidden;
+}
+
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.lista-tarefa a{
+    color: #000;
+    text-decoration: none;
+    align-items: center;
+}
